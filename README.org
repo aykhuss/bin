@@ -1,2 +1,10 @@
 #+TITLE: Collection of Scripts
 #+AUTHOR: Alexander Huss
+
+* ~mov2gif.sh~
+Convert ~*.mov~ file into ~*.gif~.
+Requires ~ffmpeg~ and ~gifsicle~, which can be installed via ~brew~:
+#+BEGIN_SRC sh
+  brew install ffmpeg
+  brew install gifsicle
+#+END_SRC
